@@ -10,7 +10,8 @@ public class Caminhonete extends Veiculo{
         } else if (peso > 3100 && peso <= 6000){
             return 50.00;
         } else {
-            throw new IllegalArgumentException("Peso da Caminhonete excede o limite.");
+            System.out.println("Peso da Caminhonete excede o limite.");
+            return 0.0;
         }
     }  
 }

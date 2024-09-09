@@ -57,11 +57,11 @@ public class Principal {
                     double preco = veiculo.calcularPreco();
                     System.out.println("O valor para o veículo selecionado é R$%.2f.".formatted(preco));
                 }
-            } else if (resposta.equals("não")){
+                } else if (resposta.equals("não")){
                 break;
-            } else {
+                } else {
                 System.out.println("Opção Inválida!");
-            }
+                }
             }
         }
     }
