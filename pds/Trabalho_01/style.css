@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: url(imagens/calcada.jpg);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -38,10 +38,7 @@ header > h1 {
     font-weight: normal;
 }
 
-header > p {
-    color: var(--cor1);
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+header > img {
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
@@ -51,7 +48,7 @@ header > p {
 
 nav {
     text-align: center;
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, #c5c4a8, #727167);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.507);
 }
@@ -92,8 +89,16 @@ main h1 {
 main h2 {
     font-family: var(--fonte-destaque);
     color: white;
-    font-size: 1.3em;
+    font-size: 1.5em;
     background-image: linear-gradient(to right, var(--cor4), transparent);
+    text-indent: 8px;
+    font-weight: normal;
+}
+
+main h3 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
     text-indent: 8px;
     font-weight: normal;
 }
@@ -112,7 +117,27 @@ main strong {
 }
 
 main img {
-    width: 50%;
+    width: 50%; 
+}
+
+.lazer {
+    
+}
+
+.gastronomia {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.hotel {
+    
+}
+
+.poster {
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 
 div.video {
@@ -132,7 +157,7 @@ div.video > iframe {
 }
 
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -147,5 +172,5 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor2);
 }
