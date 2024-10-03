@@ -11,7 +11,8 @@ public class Cliente extends Pessoa{
     @Override 
     public void imprimeDados(){
         System.out.println("Nome: " + this.getNome());
-        System.out.println("Nascimento: " + this.getNascimento().getDia());
+        System.out.print("Nascimento: ");
+        getNascimento().imprimeData();
         System.out.println("Código: " + this.getCodigo());
     }
 

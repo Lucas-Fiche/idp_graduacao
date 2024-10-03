@@ -15,7 +15,6 @@ public class Data {
         System.out.printf("Data: %02d/%02d/%04d\n", dia, mes, ano);
     }
     
-
     public int getDia() {
         return dia;
     }
