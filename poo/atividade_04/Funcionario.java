@@ -4,8 +4,9 @@ public class Funcionario extends Pessoa{
 
     private float salario;
 
-    public Funcionario(String nome, Data nascimento) {
+    public Funcionario(String nome, Data nascimento, float salario) {
         super(nome, nascimento);
+        this.salario = salario;
     }
 
     public float calculaImposto(float salario){

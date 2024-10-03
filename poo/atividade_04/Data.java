@@ -11,6 +11,11 @@ public class Data {
         this.ano = ano;
     }
 
+    public void imprimeData() {
+        System.out.printf("Data: %02d/%02d/%04d\n", dia, mes, ano);
+    }
+    
+
     public int getDia() {
         return dia;
     }
