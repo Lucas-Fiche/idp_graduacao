@@ -1,4 +1,4 @@
-package provaA1;
+package trabalhoA1;
 
 import java.util.ArrayList;
 import java.util.List;
