@@ -33,4 +33,5 @@ Salário: 5000.0
 Caso o usuário insira um índice inválido:
 
 Tratamento de Exceções
+<br>
 O tratamento de exceção foi implementado para garantir que o usuário não possa acessar índices inválidos no array de pessoas cadastradas. A exceção ArrayIndexOutOfBoundsException é capturada e tratada para evitar erros no programa e exibir uma mensagem apropriada ao usuário.
