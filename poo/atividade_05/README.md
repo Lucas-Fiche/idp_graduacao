@@ -41,5 +41,7 @@ O tratamento de exceção foi implementado para garantir que o usuário não pos
 Coloque toda a regra de negócio do software na classe PessoaService, deixando a classe TestaCadastro apenas com a CLI com o usuário;
 <br>
 A empresa pode ter no máximo 1 gerente e 7 funcionários:
-caso tente cadastrar mais do que isso, deve ser lançada a exceção personalizada QuantidadeExcedidaException (a mensagem da exceção deve indicar qual tipo de vaga que excedeu a quantidade);
-deve ser criada a classe ClienteVip, sendo que esta possui um percentual de desconto (atributo percentualDesconto) que será utilizado nas compras que o cliente fizer;
+<br>
+Caso tente cadastrar mais do que isso, deve ser lançada a exceção personalizada QuantidadeExcedidaException (a mensagem da exceção deve indicar qual tipo de vaga que excedeu a quantidade);
+<br>
+Deve ser criada a classe ClienteVip, sendo que esta possui um percentual de desconto (atributo percentualDesconto) que será utilizado nas compras que o cliente fizer;
