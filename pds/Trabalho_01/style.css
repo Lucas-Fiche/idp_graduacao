@@ -44,11 +44,12 @@ header > img {
     padding-left: 10px;
     margin: auto;
     margin-bottom: 20px;
+    border-radius: 100px;
 }
 
 nav {
     text-align: center;
-    background-image: linear-gradient(to bottom, #c5c4a8, #727167);
+    background-image: url(imagens/efeio.jpg);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.507);
 }
@@ -56,6 +57,8 @@ nav {
 nav > a {
     color: white;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -64,7 +67,6 @@ nav > a {
 
 nav > a:hover {
     color: var(--cor0);
-    background-color: var(--cor4);
 }
 
 main { 
@@ -121,23 +123,41 @@ main img {
 }
 
 .lazer {
-    
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.525);
 }
 
 .gastronomia {
     display: block;
     margin: auto;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.525);
 }
 
 .hotel {
-    
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.525);
 }
 
 .poster {
+    width: 30%;
     display: block;
     margin: auto;
-    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.525);
 }
 
 div.video {
@@ -173,4 +193,100 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor2);
+}
+
+button, input[type="submit"] {
+    background-color: var(--cor3); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: var(--cor4); 
+    transform: scale(1.05); 
+}
+
+
+a.botao {
+    display: inline-block;
+    background-color: var(--cor3); 
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    max-width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a.botao:hover {
+    background-color: var(--cor4); 
+    transform: scale(1.01); 
+}
+
+a.link-opcao {
+    color: var(--cor3); 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a.link-opcao:hover {
+    color: var(--cor4); 
+    transform: scale(1.05); 
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: var(--cor4);
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--cor3);
+    transition: 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: var(--cor4);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+    background-color: var(--cor3);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--cor4);
+    transform: scale(1.05);
+}
+
+.page-secondary footer {
+    display: none;
 }
