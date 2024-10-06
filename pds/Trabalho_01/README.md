@@ -5,18 +5,22 @@ Este projeto consiste na criação de um site para um hotel, permitindo que os u
 
 O site do hotel inclui as seguintes funcionalidades:
 
-Home Page (index.html): Apresentação do hotel, imagens e resumo dos serviços oferecidos.
-Cadastro de Usuários (cadastro.html): Formulário para novos usuários se registrarem.
-Reservas (reserva.html): Sistema para os usuários reservarem quartos e serviços.
-Ajuda (ajuda.html): Informações úteis e FAQs sobre o hotel.
-Fale Conosco (faleconosco.html): Formulário para os visitantes entrarem em contato com o hotel.
-Página do Hóspede (hospede.html): Área exclusiva para hóspedes com informações e serviços disponíveis.
+<ul>
+    <li> Home Page (index.html): Apresentação do hotel, imagens e resumo dos serviços oferecidos.
+    <li> Cadastro de Usuários (cadastro.html): Formulário para novos usuários se registrarem.
+    <li> Reservas (reserva.html): Sistema para os usuários reservarem quartos e serviços.
+    <li>Ajuda (ajuda.html): Informações úteis e FAQs sobre o hotel.
+    <li>Fale Conosco (faleconosco.html): Formulário para os visitantes entrarem em contato com o hotel.
+    <li>Página do Hóspede (hospede.html): Área exclusiva para hóspedes com informações e serviços disponíveis.
+</ul>
 
 ## Tecnologias Utilizadas
 
-HTML5: Para a estruturação do conteúdo da página.
-CSS3: Para estilização e design responsivo do site.
-JavaScript: Para adicionar interatividade e funcionalidade ao site.
+<ul>
+    <li>HTML5: Para a estruturação do conteúdo da página.
+    <li>CSS3: Para estilização e design responsivo do site.
+    <li>JavaScript: Para adicionar interatividade e funcionalidade ao site.
+</ul>
 
 ## Como Executar o Projeto
 1. Clone ou faça o download deste repositório.
